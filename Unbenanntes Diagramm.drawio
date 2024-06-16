@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T21:01:46.404Z" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="24.5.4" etag="vOMiPB3cqeepbyTbNjQk" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T21:20:58.942Z" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NtvP6YMh1oPRxvEbJRdD" version="24.5.4" type="github">
   <diagram name="Seite-1" id="RrE5lslUn77ldLjbTCy6">
-    <mxGraphModel>
+    <mxGraphModel dx="808" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-10" value="Sensor HAT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPS4YFgSIEHNWt6dWoAK-1" target="GPS4YFgSIEHNWt6dWoAK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-1" value="Raspberry PI" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fruit-136/64/Fruit_iconfree_Filled_Outline_raspberry-healthy-organic-food-fruit_icon-128.png" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-2" value="https://kizniche.github.io/Mycodo/&#xa;MYCODO" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kizniche.github.io/Mycodo/images/favicon.png;imageBackground=#FF1F17;" vertex="1" parent="1">
+          <mxGeometry x="40" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.plant;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="127" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-5" value="Watering via peristaltic pump" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.547;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPS4YFgSIEHNWt6dWoAK-1" target="GPS4YFgSIEHNWt6dWoAK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.berrybase.de/media/image/e2/0b/b3/ID_187578_orig.jpg;clipPath=inset(33.33% 15.67% 33.33% 17.67%);" vertex="1" parent="1">
+          <mxGeometry x="154" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-12" value="Soil moisture sensor (x3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPS4YFgSIEHNWt6dWoAK-9" target="GPS4YFgSIEHNWt6dWoAK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPS4YFgSIEHNWt6dWoAK-13" value="Pump (optional)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.772;entryY=0.828;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPS4YFgSIEHNWt6dWoAK-9" target="GPS4YFgSIEHNWt6dWoAK-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="500" />
+              <mxPoint x="578" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
