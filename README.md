@@ -1,3 +1,3 @@
 # greenwatcher
 
-![Alt text here](diagram.png)
+![Alt text here](images/diagram.png)
